@@ -1,0 +1,111 @@
+1.By assigining value to the variables.(literals)
+2. Two types premitive and non premitive.
+3.Because compiler does't assign default data types , so we have to specify it.
+4.Uppercase -> class name, camelCase->method names.
+5.Initilising a value to the variable. Ex refrene_variable_name = value;.
+6.Array is set of elements of same datatypes.
+7.Yes.
+8.Array is stored in HeapArea or HeapMemory.
+9.Advantages of array , We can store multiple values of same datatype in singel variable.
+10.
+
+11. class Array{
+ public static void main (String []ar){
+     int[] a={1,2,3,4,5,6,7,8,9};
+	 
+	 for(int i=0;i<a.lenght;i++){
+	    System.out.println(a[i]);
+	 }
+ 
+ }
+}
+12.class SortArray{
+public static void main (String[]a){
+     int []a={4,5,2,9,55,36,12,};
+	 int i,temp;
+	 for(i=0;i<a.lenght;i++){
+	   if(a[i]>a[i+1]){
+	     a[i]=a[i+1];
+		 a[i+1]=temp;
+		 temp=a[i];
+	   }
+	   for(int i=0;i<a.lenght;i++){
+	   System.out.println(a[i]);
+	   }
+	 }
+	 
+}
+}
+13.class Arrayequal{
+public static void main (String []ar){
+    int []a={1,2,3,4};
+	int []b={4,5,6,7};
+	
+	for(int i=0;i<a.lenght;i++){
+	  if(a[i]==b[i]){
+	     System.out.println("Both arrays are equal");
+	  }else{
+	  System.out.println("Not equal");
+	  }
+	  
+	}
+}
+}
+
+
+14.class Arraybond{
+  public static void main (String []ar){
+      int [3]a;
+	  
+	  a[0]=1;
+	  a[1]=2;
+	  a[2]=3;
+	  a[3]=4;
+	  a[4]=5;
+  }
+}
+
+
+15.
+16.  class Maxmin{
+     public static void main (String []ar){
+     int []a ={8,5,6,9,4,10};
+	 
+	    a[0]=max;
+      for(int i=0;i<a.lenght ;i++){
+	        
+        if(a[i]>max){
+		max = a[i];
+		System.out.println("Largest number is "+a[i]);
+		}	   
+   }
+       a[0]=min;
+	   for(int j=0;j<a.lenght;j++){
+	    if(a[j]<min){
+		  min = a[j];
+		  System.out.println("Smallest number is "+a[j]);
+		}
+		
+	   }
+}
+}
+
+17.Static keyword -> Non varying or exact.
+   Static variable -> variable decleared inside class out side method .
+   
+18.Yes.
+
+19.Because jvm can invoke it .
+20. Set of instruction runs only once when class loaded.
+21.No, constructor can't be static.
+22. Yes , it is by default static final(can't modify or change).
+23.Calling one constructor inside another constructor is canstructor chaining.
+24.Constructor is a special type method ,its name same as class name and used to initilize the objects.
+25.It will become method of class.
+26.Yes.
+27. By downcasting.
+28.Instance is non static , class is a blueprint of an object.
+29.2 ways.
+30. Object is created.
+   
+   
