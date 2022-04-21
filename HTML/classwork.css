@@ -1,0 +1,19 @@
+.body{
+    background-image: url(12340.jpg ) ;
+    background-size:cover;
+    color:aliceblue;
+    
+    
+
+}
+.h1{text-align: center; color:azure;}
+
+.div{text-align:center;
+
+background-color: brown; margin-left: 250px;margin-right: 250px;margin-top: 250px;margin-bottom: 250px;}
+
+.div1{text-align: center; color:chartreuse;}
+
+.div2{text-align: center;color:gold;}
+
+.div4{background-color:brown;}

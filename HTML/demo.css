@@ -1,0 +1,64 @@
+<!doctype html>
+
+<html>
+<title>
+       CSS-Cascading Style Sheet
+</title>
+
+
+<style>
+    h1,h2,h3,h4{
+         font-size: 50px;
+     }
+
+    
+    h1,h2,h3,h4{
+        color: rgb(14, 236, 225);
+    }
+
+    .manish{
+text-decoration: underline;
+text-transform: uppercase;
+
+
+    }
+
+    #netflix {
+        color: rgb(23, 214, 109);
+        font-size: 50px;
+    }
+
+
+body{
+    background-image:url("Money-Heist-Professor-Wallpapers.jpg");
+    background-size: 100% ;
+    background-repeat: no-repeat;
+}
+</style>
+<body>
+    <h1 class ="manish">
+        Money Heist 
+    </h1>
+
+    <h2 class ="manish">
+
+        Season 5
+    </h2>
+
+    <h3 class ="manish">
+        volume 2
+    </h3>
+    
+     <h4 class ="manish"> Professor</h4>
+
+<div id="netflix">
+
+Berlin
+
+</div>
+     
+</body>
+
+</html>
+
+
